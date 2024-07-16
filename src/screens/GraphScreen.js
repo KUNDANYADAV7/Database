@@ -153,7 +153,7 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, Dimensions, StyleSheet, TextInput, Button, FlatList } from 'react-native';
 import { BarChart } from 'react-native-chart-kit';
 import Header from '../component/Header';
-import { getDBConnection, createTable, getUsers, insertUser, updateUser, deleteUser } from '../../database/Database';
+import { getDBConnection, createTable, getUsers, insertUser, updateUser, deleteUser } from '../../database/DatabaseGraph';
 
 const DetailsScreen = ({ navigation }) => {
   const [dbGraph, setDbGraph] = useState(null);
